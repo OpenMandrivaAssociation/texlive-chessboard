@@ -1,3 +1,9 @@
+# revision 19440
+# category Package
+# catalog-ctan /macros/latex/contrib/chessboard
+# catalog-date 2008-08-17 13:56:26 +0200
+# catalog-license lppl
+# catalog-version 1.5
 Name:		texlive-chessboard
 Version:	1.5
 Release:	1
@@ -51,6 +57,7 @@ animations.
 #- source
 %doc %{_texmfdistdir}/source/latex/chessboard/chessboard-src.dtx
 %doc %{_texmfdistdir}/source/latex/chessboard/chessboard.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +68,5 @@ animations.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
