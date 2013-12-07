@@ -6,7 +6,7 @@
 # catalog-version 1.5
 Name:		texlive-chessboard
 Version:	1.5
-Release:	4
+Release:	5
 Summary:	Print chess boards
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chessboard
