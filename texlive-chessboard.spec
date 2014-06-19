@@ -1,12 +1,12 @@
-# revision 19440
+# revision 33801
 # category Package
 # catalog-ctan /macros/latex/contrib/chessboard
-# catalog-date 2008-08-17 13:56:26 +0200
+# catalog-date 2014-05-01 22:32:50 +0200
 # catalog-license lppl
-# catalog-version 1.5
+# catalog-version 1.7
 Name:		texlive-chessboard
-Version:	1.5
-Release:	7
+Version:	1.7
+Release:	1
 Summary:	Print chess boards
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chessboard
@@ -57,18 +57,3 @@ animations.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.5-2
-+ Revision: 750152
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.5-1
-+ Revision: 718049
-- texlive-chessboard
-- texlive-chessboard
-- texlive-chessboard
-- texlive-chessboard
-- texlive-chessboard
-
