@@ -1,6 +1,6 @@
 Name:		texlive-chessboard
 Version:	56833
-Release:	1
+Release:	2
 Summary:	Print chess boards
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chessboard
