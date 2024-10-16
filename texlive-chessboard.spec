@@ -3,7 +3,7 @@ Version:	56833
 Release:	2
 Summary:	Print chess boards
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/chessboard
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/chessboard
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chessboard.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/chessboard.doc.r%{version}.tar.xz
